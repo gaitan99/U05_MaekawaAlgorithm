@@ -18,7 +18,7 @@ El algoritmo de maekawa se trata de un algoritmo de exlusión mutua para sistema
     -requested_queue : Cola de prioridad donde se encolarán las peticiones que no pueden ser atendidas en ese momento.
     
     
-**  Referencias:**
+**Referencias:**
 
   Para realizar la práctica he extraido información de los enlaces propuestos en el enunciado de la práctica:
   - https://www.geeksforgeeks.org/maekawas-algorithm-for-mutual-exclusion-in-distributed-system/
