@@ -96,7 +96,7 @@ class Node():
         Increase lamport timestamp by 1.
         Calculate the timestamp that it should exit.
         """
-        print("---Node asking entering cs : ", self.id)
+        print("---Node entering cs : ", self.id)
         self.time_exit_cs = ts + timedelta(milliseconds=self.CS_INT)
         self.curr_state = STATE.HELD    
         self.lamport_ts += 1
